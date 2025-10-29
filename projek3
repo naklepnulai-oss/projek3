@@ -1,12 +1,12 @@
-# Program untuk mengecek apakah bilangan genap dan menghitung sisa bagi oleh 5
+def main():
+    angka1 = 10
+    angka2 = 20
+    angka3 = 45
 
-# Membaca input dari pengguna
-number = int(input("Masukkan sebuah bilangan bulat: "))
+    total = angka1 + angka2 + angka3
+    rata_rata = total / 3
 
-# Mengecek apakah bilangan genap
-if number % 2 == 0:
-    remainder = number % 5  # menghitung sisa bagi oleh 5
-    print(f"Bilangan {number} adalah genap.")
-    print(f"Sisa bagi oleh 5 adalah {remainder}.")
-else:
-    print(f"Bilangan {number} bukan genap.")
+    print("Angka 1:", angka1)
+    print("Angka 2:", angka2)
+    print("Angka 3:", angka3)
+    print("Rata-rata:", rata_rata)
